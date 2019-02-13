@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E74E2CE92213C8B70060ACAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E2CE82213C8B70060ACAF /* AppDelegate.swift */; };
+		E74E2CEB2213C8B70060ACAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E2CEA2213C8B70060ACAF /* ViewController.swift */; };
+		E74E2CEE2213C8B70060ACAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74E2CEC2213C8B70060ACAF /* Main.storyboard */; };
+		E74E2CF02213C8BA0060ACAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74E2CEF2213C8BA0060ACAF /* Assets.xcassets */; };
+		E74E2CF32213C8BA0060ACAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74E2CF12213C8BA0060ACAF /* LaunchScreen.storyboard */; };
+		E74E2CFE2213C8BA0060ACAF /* EverestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E2CFD2213C8BA0060ACAF /* EverestAppTests.swift */; };
+		E74E2D092213C8BA0060ACAF /* EverestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E2D082213C8BA0060ACAF /* EverestAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74E2CFA2213C8BA0060ACAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74E2CDD2213C8B70060ACAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74E2CE42213C8B70060ACAF;
+			remoteInfo = EverestApp;
+		};
+		E74E2D052213C8BA0060ACAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74E2CDD2213C8B70060ACAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74E2CE42213C8B70060ACAF;
+			remoteInfo = EverestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E74E2CE52213C8B70060ACAF /* EverestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74E2CE82213C8B70060ACAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E74E2CEA2213C8B70060ACAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E74E2CED2213C8B70060ACAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E74E2CEF2213C8BA0060ACAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74E2CF22213C8BA0060ACAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E74E2CF42213C8BA0060ACAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74E2CF92213C8BA0060ACAF /* EverestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74E2CFD2213C8BA0060ACAF /* EverestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverestAppTests.swift; sourceTree = "<group>"; };
+		E74E2CFF2213C8BA0060ACAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74E2D042213C8BA0060ACAF /* EverestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74E2D082213C8BA0060ACAF /* EverestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverestAppUITests.swift; sourceTree = "<group>"; };
+		E74E2D0A2213C8BA0060ACAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74E2CE22213C8B70060ACAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74E2CF62213C8BA0060ACAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74E2D012213C8BA0060ACAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E74E2CDC2213C8B70060ACAF = {
+			isa = PBXGroup;
+			children = (
+				E74E2CE72213C8B70060ACAF /* EverestApp */,
+				E74E2CFC2213C8BA0060ACAF /* EverestAppTests */,
+				E74E2D072213C8BA0060ACAF /* EverestAppUITests */,
+				E74E2CE62213C8B70060ACAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74E2CE62213C8B70060ACAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74E2CE52213C8B70060ACAF /* EverestApp.app */,
+				E74E2CF92213C8BA0060ACAF /* EverestAppTests.xctest */,
+				E74E2D042213C8BA0060ACAF /* EverestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74E2CE72213C8B70060ACAF /* EverestApp */ = {
+			isa = PBXGroup;
+			children = (
+				E74E2CE82213C8B70060ACAF /* AppDelegate.swift */,
+				E74E2CEA2213C8B70060ACAF /* ViewController.swift */,
+				E74E2CEC2213C8B70060ACAF /* Main.storyboard */,
+				E74E2CEF2213C8BA0060ACAF /* Assets.xcassets */,
+				E74E2CF12213C8BA0060ACAF /* LaunchScreen.storyboard */,
+				E74E2CF42213C8BA0060ACAF /* Info.plist */,
+			);
+			path = EverestApp;
+			sourceTree = "<group>";
+		};
+		E74E2CFC2213C8BA0060ACAF /* EverestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74E2CFD2213C8BA0060ACAF /* EverestAppTests.swift */,
+				E74E2CFF2213C8BA0060ACAF /* Info.plist */,
+			);
+			path = EverestAppTests;
+			sourceTree = "<group>";
+		};
+		E74E2D072213C8BA0060ACAF /* EverestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74E2D082213C8BA0060ACAF /* EverestAppUITests.swift */,
+				E74E2D0A2213C8BA0060ACAF /* Info.plist */,
+			);
+			path = EverestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74E2CE42213C8B70060ACAF /* EverestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74E2D0D2213C8BA0060ACAF /* Build configuration list for PBXNativeTarget "EverestApp" */;
+			buildPhases = (
+				E74E2CE12213C8B70060ACAF /* Sources */,
+				E74E2CE22213C8B70060ACAF /* Frameworks */,
+				E74E2CE32213C8B70060ACAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverestApp;
+			productName = EverestApp;
+			productReference = E74E2CE52213C8B70060ACAF /* EverestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74E2CF82213C8BA0060ACAF /* EverestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74E2D102213C8BA0060ACAF /* Build configuration list for PBXNativeTarget "EverestAppTests" */;
+			buildPhases = (
+				E74E2CF52213C8BA0060ACAF /* Sources */,
+				E74E2CF62213C8BA0060ACAF /* Frameworks */,
+				E74E2CF72213C8BA0060ACAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74E2CFB2213C8BA0060ACAF /* PBXTargetDependency */,
+			);
+			name = EverestAppTests;
+			productName = EverestAppTests;
+			productReference = E74E2CF92213C8BA0060ACAF /* EverestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74E2D032213C8BA0060ACAF /* EverestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74E2D132213C8BA0060ACAF /* Build configuration list for PBXNativeTarget "EverestAppUITests" */;
+			buildPhases = (
+				E74E2D002213C8BA0060ACAF /* Sources */,
+				E74E2D012213C8BA0060ACAF /* Frameworks */,
+				E74E2D022213C8BA0060ACAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74E2D062213C8BA0060ACAF /* PBXTargetDependency */,
+			);
+			name = EverestAppUITests;
+			productName = EverestAppUITests;
+			productReference = E74E2D042213C8BA0060ACAF /* EverestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74E2CDD2213C8B70060ACAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jose Gamboa";
+				TargetAttributes = {
+					E74E2CE42213C8B70060ACAF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E74E2CF82213C8BA0060ACAF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E74E2CE42213C8B70060ACAF;
+					};
+					E74E2D032213C8BA0060ACAF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E74E2CE42213C8B70060ACAF;
+					};
+				};
+			};
+			buildConfigurationList = E74E2CE02213C8B70060ACAF /* Build configuration list for PBXProject "EverestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74E2CDC2213C8B70060ACAF;
+			productRefGroup = E74E2CE62213C8B70060ACAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74E2CE42213C8B70060ACAF /* EverestApp */,
+				E74E2CF82213C8BA0060ACAF /* EverestAppTests */,
+				E74E2D032213C8BA0060ACAF /* EverestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74E2CE32213C8B70060ACAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74E2CF32213C8BA0060ACAF /* LaunchScreen.storyboard in Resources */,
+				E74E2CF02213C8BA0060ACAF /* Assets.xcassets in Resources */,
+				E74E2CEE2213C8B70060ACAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74E2CF72213C8BA0060ACAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74E2D022213C8BA0060ACAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74E2CE12213C8B70060ACAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74E2CEB2213C8B70060ACAF /* ViewController.swift in Sources */,
+				E74E2CE92213C8B70060ACAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74E2CF52213C8BA0060ACAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74E2CFE2213C8BA0060ACAF /* EverestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74E2D002213C8BA0060ACAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74E2D092213C8BA0060ACAF /* EverestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74E2CFB2213C8BA0060ACAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74E2CE42213C8B70060ACAF /* EverestApp */;
+			targetProxy = E74E2CFA2213C8BA0060ACAF /* PBXContainerItemProxy */;
+		};
+		E74E2D062213C8BA0060ACAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74E2CE42213C8B70060ACAF /* EverestApp */;
+			targetProxy = E74E2D052213C8BA0060ACAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E74E2CEC2213C8B70060ACAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74E2CED2213C8B70060ACAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E74E2CF12213C8BA0060ACAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74E2CF22213C8BA0060ACAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E74E2D0B2213C8BA0060ACAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E74E2D0C2213C8BA0060ACAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74E2D0E2213C8BA0060ACAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLWB6ZX2PL;
+				INFOPLIST_FILE = EverestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = everestApp.EverestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74E2D0F2213C8BA0060ACAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLWB6ZX2PL;
+				INFOPLIST_FILE = EverestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = everestApp.EverestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E74E2D112213C8BA0060ACAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLWB6ZX2PL;
+				INFOPLIST_FILE = EverestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = everestApp.EverestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EverestApp.app/EverestApp";
+			};
+			name = Debug;
+		};
+		E74E2D122213C8BA0060ACAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLWB6ZX2PL;
+				INFOPLIST_FILE = EverestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = everestApp.EverestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EverestApp.app/EverestApp";
+			};
+			name = Release;
+		};
+		E74E2D142213C8BA0060ACAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLWB6ZX2PL;
+				INFOPLIST_FILE = EverestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = everestApp.EverestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EverestApp;
+			};
+			name = Debug;
+		};
+		E74E2D152213C8BA0060ACAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLWB6ZX2PL;
+				INFOPLIST_FILE = EverestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = everestApp.EverestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EverestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74E2CE02213C8B70060ACAF /* Build configuration list for PBXProject "EverestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74E2D0B2213C8BA0060ACAF /* Debug */,
+				E74E2D0C2213C8BA0060ACAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74E2D0D2213C8BA0060ACAF /* Build configuration list for PBXNativeTarget "EverestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74E2D0E2213C8BA0060ACAF /* Debug */,
+				E74E2D0F2213C8BA0060ACAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74E2D102213C8BA0060ACAF /* Build configuration list for PBXNativeTarget "EverestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74E2D112213C8BA0060ACAF /* Debug */,
+				E74E2D122213C8BA0060ACAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74E2D132213C8BA0060ACAF /* Build configuration list for PBXNativeTarget "EverestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74E2D142213C8BA0060ACAF /* Debug */,
+				E74E2D152213C8BA0060ACAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74E2CDD2213C8B70060ACAF /* Project object */;
+}
